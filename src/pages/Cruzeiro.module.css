@@ -1,0 +1,29 @@
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    border: 1px solid red;
+}
+
+
+.reserva {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10% auto;
+}
+
+.reservasConfirmadas {
+    width: fit-content;
+    margin: 10% auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.horario {
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 10px
+}
